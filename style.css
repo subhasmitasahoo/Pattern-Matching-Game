@@ -1,0 +1,82 @@
+body{
+	background-color: #2B2B2B;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Montserrat","Avenir";
+	margin: 0px;
+}
+
+#content{
+	max-width: 600px;
+	margin: 25px auto;
+}
+
+.circle{
+	margin: 1.66%;
+	padding-bottom: 30%;
+	background-color: pink;
+	width: 30%;
+	float: left;
+	border-radius: 50%;
+}
+
+h1{
+	text-align: center;
+	background-color: #E9E581;	
+	margin: 0px;
+	color: #191919;
+	font-weight: normal;
+	line-height: 1.1;
+	padding:20px 0px 20px 0px;
+	border-bottom: 5px solid #2B2B2B;
+}
+
+#start{
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: #E9E581;
+	color: #2B2B2B;
+	margin-right: 20%;
+}
+
+/*.circleWithBorder{
+	border: 1px pink solid;
+}*/
+.selected{
+	background-color: #E9E581;
+	color: black;
+}
+
+#menu{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+button{
+	border: none;
+	background-color: none;
+	height: 100%;
+	font-weight: 700;
+	color: #E9E581;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background-color: #E9E581;
+}
+
+#playBtn{
+	margin-top: 25px;
+	text-align: center;
+}
+
+#play{
+	color: black;
+}
+
